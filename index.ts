@@ -9,3 +9,5 @@ const customMap = new CustomMap('map');
 
 customMap.addUserMarker(user);
 customMap.addUserMarker(company);
+
+// stigao sam go 65. lekcije
