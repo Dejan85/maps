@@ -132817,8 +132817,13 @@ var Company_1 = require("./src/Company");
 
 var user = new User_1.User();
 var company = new Company_1.Company();
-console.log('test', user);
-console.log('test', company);
+new google.maps.Map(document.getElementById('map'), {
+  zoom: 1,
+  center: {
+    lat: 0,
+    lng: 0
+  }
+});
 },{"./src/User":"src/User.ts","./src/Company":"src/Company.ts"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

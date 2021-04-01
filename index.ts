@@ -4,5 +4,10 @@ import { Company } from './src/Company';
 const user = new User();
 const company = new Company();
 
-console.log('test', user);
-console.log('test', company);
+new google.maps.Map(document.getElementById('map'), {
+    zoom: 1,
+    center: {
+        lat: 0,
+        lng: 0
+    }
+});
